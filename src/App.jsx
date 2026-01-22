@@ -1,12 +1,14 @@
 import { useState } from 'react'
+import NavBar from "./navbar";
 import './App.css'
 
 function App() {
   
   return (
-    <button className="btn btn-primary mt-4">
-        DaisyUI Blue 
-      </button>
+   
+    <>
+    <NavBar/>
+    </>
   );
 }
 
